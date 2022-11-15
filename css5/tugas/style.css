@@ -1,0 +1,64 @@
+body {
+    background-image: url(../tugas/bgweb.jpg);
+    background-size: 1500px;
+}
+
+.wrapper {
+    background-color: white;
+    height: 1000px;
+    width: 950px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.judul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.foto {
+    background-image: url(../tugas/images.jpg);
+    height: 500px;
+    padding: 0px;
+    background-size: cover;
+    border-top: 10px solid red;
+    border-bottom: 8px solid blue;
+
+}
+
+.content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid white;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+
